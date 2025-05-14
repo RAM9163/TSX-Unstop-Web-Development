@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to My First Web Page!</h1>
+    <p>This is a paragraph with a styled font size.</p>
+    
+    <button onclick="console.log('Button clicked!')">Click Me!</button>
+
+    <script>
+        console.log('Hello, World!');
+    </script>
+</body>
+</html>
+h1 {
+    color: #3498db;
+}
+
+p {
+    font-size: 18px;
+}
